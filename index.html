@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>FormularioPacientes</title>
+</head>
+<body>
+	<div id="content">
+		<h1>Registro de Pacientes</h1>
+		<form action="registro.php" method="POST">
+	        <table border="1">
+		        <tr>
+		            <td><label>Nombres</label></td>
+		            <td><input type="text" name="nombreuser" placeholder="Nombres" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Apellidos</label></td>
+		            <td><input type="text" name="apellidosuser" placeholder="Apellidos" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Correo electronico</label></td>
+		            <td><input type="text" name="emailuser" placeholder="example@mail.com" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Edad</label></td>
+		            <td><input type="text" name="age" placeholder="00 años de edad" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Direccion</label></td>
+		            <td><input type="text" name="direction" placeholder="**********************" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Electrolitos</label></td>
+		            <td><input type="number" name="electrolitos" placeholder="00" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Glucosa</label></td>
+		            <td><input type="number" name="glucosa" placeholder="00" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Azucar</label></td>
+		            <td><input type="number" name="azucar" placeholder="00" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label>Proteina</label></td>
+		            <td><input type="number" name="proteina" placeholder="00" required/></td>
+		        </tr>
+		        <tr>
+		            <td><label><input type="submit" value="Registar y enviar correo"></input></label></td>
+		            <td><label><input type="reset" value="Reestablecer"></input></label></td>
+		        </tr>
+		</form>
+	</div>
+</body>
+</html>
